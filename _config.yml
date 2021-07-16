@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -12,17 +12,17 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "2021 WHOSE Party"
 email: "devfest@gdg.org.ua"
-description: "09/18 ~ 09/20 | Join us!"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+description: "10/24 ~ 10/25 | Join us!"
+baseurl: ""
+# url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+# googleAnalyticsTrackingId: "UA-43643469-5"
+# googleAnalyticsSiteUrl: "gdg-x.github.io"
+# siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "臺大資管物治護理聯合宿營"
+# organizerAlternateName: "Google Developer Group Lviv"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
@@ -43,19 +43,19 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "主頁"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/blog/", text: "最新消息"}
+ - {permalink: "/schedule/", text: "活動時程"}
+ - {permalink: "/speakers/", text: "團隊介紹"}
+ - {permalink: "/team/", text: "小隊資訊"}
+ - {permalink: "/logistics/", text: "下載專區"}
+ - {permalink: "/faq/", text: "FAQ"}
 # bottomNavigationLinks:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 # rightNavigationButtons:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "home_background.jpg"
 heroTitle: "WHOSE PARTY"
 heroTitle2: "2021 三系聯合迎新宿營"
 eventDate: "September 18th - September 20th"
@@ -68,9 +68,9 @@ heroButtons:
 # About Block
 aboutTitle: "參與科系"
 aboutBlock:
- - {title: "資訊管理學系", image: "conference.jpg", text: "" }
- - {title: "物理治療學系", image: "workshop.jpg", text: "" }
- - {title: "護理學系", image: "hackathon.jpg", text: "" }
+ - {title: "臺灣大學資訊管理學系", image: "conference.jpg", text: "" }
+ - {title: "臺灣大學物理治療學系", image: "workshop.jpg", text: "" }
+ - {title: "臺灣大學護理學系", image: "hackathon.jpg", text: "" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -96,7 +96,7 @@ eventLocationLink: "https://www.pushin-ranch.com/"
 eventStreetAddress: "桃園市楊梅區幼獅路一段439號"
 eventAddressLocality: ""
 eventAddressLocalityRegion: ""
-eventPostalCode: ""
+eventPostalCode: "32659"
 eventAddressCountry: ""
 eventStartTime: ""
 eventDoorTime: ""
@@ -127,7 +127,7 @@ mapMobileCenterCoordinates: ""
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "在此報名"
+subscribeTitle: "點此報名"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: ""
 
